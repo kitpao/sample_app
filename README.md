@@ -39,3 +39,12 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
+
+**Notes:** To config irb in editor:
+`$ nano ˜ /.irbrc`
+
+```
+IRB.conf[:PROMPT_MODE] = :SIMPLE
+IRB.conf[:AUTO_INDENT_MODE] = false
+```
+save
